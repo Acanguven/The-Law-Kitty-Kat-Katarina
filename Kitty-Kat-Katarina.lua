@@ -18,7 +18,7 @@ print("<font color='#FF9900'>[Kitty Kat Katarina] Checking for any update...</fo
 
 
 local SELF = SCRIPT_PATH..GetCurrentEnv().FILE_NAME
-local URL = "https://raw.githubusercontent.com/thelaw44/The-Law-Kitty-Kat-Katarina/master/Kitty%20Kat%20Katarina.lua"
+local URL = "https://raw.githubusercontent.com/thelaw44/The-Law-Kitty-Kat-Katarina/master/Kitty-Kat-Katarina.lua"
 local UPDATE_TMP_FILE = LIB_PATH .."kittytempupdater.txt" .. math.random(100000)
 
 function Update()
