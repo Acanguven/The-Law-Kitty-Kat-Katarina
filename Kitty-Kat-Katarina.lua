@@ -17,7 +17,7 @@
 --  
 --
 -- Don't touch below...
-local version = "23"
+local version = "24"
 print("<font color='#FF9900'>[Kitty Kat Katarina] Starting Kitty Kat Katarina with version : ".. version .."</font>")
 print("<font color='#FF9900'>[Kitty Kat Katarina] Checking for any update...</font>")
 
