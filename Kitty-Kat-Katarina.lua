@@ -34,7 +34,7 @@ function KittyKat:checkHeroValid()
 end
 
 function KittyKat:checkValidate()
-	if self:checkHeroValid() and self:checkSameGameDeveloper() and self:checkVersionValid() then 
+	if self:checkHeroValid() and self:checkVersionValid() then 
 		if self.requredLibsDownloaded then
 			self.scriptValid = true
 		end
@@ -57,16 +57,6 @@ function KittyKat:checkVersionValid()
 		return false
 	end
 	drawing:print("Loading version: " .. self.version,"green")
-	return true
-end
-
-function KittyKat:checkSameGameDeveloper()
-	for i, enemy in ipairs(GetEnemyHeroes()) do
-	    if enemy.name == "ACG" or enemy.name == "zigagang44" then
-	        drawing:print("You can't play against the creator of this script :(","red") 
-	        return false
-	    end
-	end
 	return true
 end
 
